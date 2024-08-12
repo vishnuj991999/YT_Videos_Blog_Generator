@@ -3,4 +3,5 @@ yt-dlp
 pytube
 whisper
 fpfd2
-docx2txt 
+docx2txt
+together
