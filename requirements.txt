@@ -1,0 +1,6 @@
+ffmpeg
+yt-dlp
+pytube
+whisper
+fpfd2
+docx2txt 
