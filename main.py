@@ -9,7 +9,7 @@ work = st.radio("Choose Work Type:", ["Summarize", "Blog"])
 
 if st.button("Generate"):
     if video_url:
-        api_key = "1432e2cb13f79f66a855ab244fe7a873adc45ef35fb1026bea93a9fca7460522"
+        api_key = "YOUR_API_KEY"
         success, result = process_youtube_video(video_url, work, api_key)
         if success:
             # Provide a download link for the PDF
