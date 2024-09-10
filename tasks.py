@@ -22,7 +22,7 @@ def generate_content(text_generated, work_type, api_key):
         role_content = "\n generate blog with this content more than 1200 words"
         word_count = 1500
 
-    together_client = Together(api_key=api_key)
+    together_client = Together(api_key="64880c44ef37384040dc253c954ed2f190c0e4702c3e80745e5eb78221f47376")
 
     response = together_client.chat.completions.create(
         model="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
